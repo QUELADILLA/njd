@@ -8018,3 +8018,13 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Mar2025 19:16:33.424] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [37, -82], size does not match; expected: 43, got: 37
 [21Mar2025 19:16:33.424] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [37, -82], size does not match; expected: 43, got: 37
 [21Mar2025 19:20:46.290] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4517a576[id=<null>,name=xSebasgg14,properties={},legacy=false] (/100.86.24.52:49210) lost connection: Disconnected
+[21Mar2025 19:24:58.928] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/6429, l='ServerLevel[world]', x=486.08, y=-256.00, z=-961.04] died, message: 'Villager was killed'
+[21Mar2025 19:26:54.636] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5e3e20b7[id=<null>,name=xSebasgg14,properties={},legacy=false] (/100.86.24.52:49613) lost connection: Disconnected
+[21Mar2025 19:30:13.530] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Drowned['Drowned'/7525, l='ServerLevel[world]', x=467.50, y=48.00, z=-1057.50]
+[21Mar2025 19:32:08.164] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xSebasgg14[/100.86.24.52:50096] logged in with entity id 8363 at (3641.679999988079, 5.275125, -6656.7241483616635)
+[21Mar2025 19:32:08.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSebasgg14 joined the game
+[21Mar2025 19:32:09.579] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xSebasgg14 (18)
+[21Mar2025 19:32:09.579] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xSebasgg14
+[21Mar2025 19:32:26.079] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 4e964f12-7fe5-3a4a-8b63-ee1d2c4035c8
+[21Mar2025 19:32:27.089] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4e964f12-7fe5-3a4a-8b63-ee1d2c4035c8
+[21Mar2025 19:32:27.089] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player xSebasgg14 (4e964f12-7fe5-3a4a-8b63-ee1d2c4035c8) successfully connected to voice chat
