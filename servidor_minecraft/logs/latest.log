@@ -11292,3 +11292,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Mar2025 20:02:03.937] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [-2, -23], size does not match; expected: 43, got: 37
 [21Mar2025 20:03:03.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSebasgg14 has reached the goal [Senior Summoner]
 [21Mar2025 20:03:10.928] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/19160, l='ServerLevel[world]', x=438.06, y=-256.00, z=-979.64] died, message: 'Villager was killed'
+[21Mar2025 20:21:26.978] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/23384, l='ServerLevel[world]', x=444.17, y=-256.00, z=-987.70] died, message: 'Villager was killed'
+[21Mar2025 20:21:56.979] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/23437, l='ServerLevel[world]', x=444.17, y=-256.00, z=-987.70] died, message: 'Villager was killed'
+[21Mar2025 20:22:57.928] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/23516, l='ServerLevel[world]', x=441.61, y=-256.00, z=-990.21] died, message: 'Villager was killed'
