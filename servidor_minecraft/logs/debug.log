@@ -15608,3 +15608,13 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Mar2025 21:23:30.081] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Set state of SoySaave to connected: {disabled=false, disconnected=false, uuid=6704eb53-cc09-31e0-8510-737fff44e93d, name=SoySaave, group=null}
 [21Mar2025 21:23:30.081] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SoySaave (6704eb53-cc09-31e0-8510-737fff44e93d) successfully connected to voice chat
 [21Mar2025 21:23:30.195] [Server thread/DEBUG] [voicechat/]: [voicechat] Got state of SoySaave: {disabled=true, disconnected=false, uuid=6704eb53-cc09-31e0-8510-737fff44e93d, name=SoySaave, group=null}
+[21Mar2025 21:27:53.994] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Mar2025 21:27:54.007] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Mar2025 21:32:53.999] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Mar2025 21:32:54.014] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Mar2025 21:32:55.490] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['xSebasgg14'/8363, l='ServerLevel[world]', x=486.15, y=33.00, z=-1009.62]]
+[21Mar2025 21:33:14.778] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['xSebasgg14'/8363, l='ServerLevel[world]', x=486.15, y=33.00, z=-1009.62]]
+[21Mar2025 21:33:26.030] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['xSebasgg14'/8363, l='ServerLevel[world]', x=486.15, y=33.00, z=-1009.62]]
+[21Mar2025 21:33:28.328] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['xSebasgg14'/8363, l='ServerLevel[world]', x=486.15, y=33.00, z=-1009.62]]
+[21Mar2025 21:33:32.277] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['xSebasgg14'/8363, l='ServerLevel[world]', x=486.15, y=33.00, z=-1009.62]]
+[21Mar2025 21:33:41.280] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['xSebasgg14'/8363, l='ServerLevel[world]', x=482.94, y=33.00, z=-1009.31]]
