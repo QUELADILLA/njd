@@ -11301,3 +11301,15 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Mar2025 20:39:32.883] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/25811, l='ServerLevel[world]', x=483.41, y=9.02, z=-911.37] died, message: 'Villager drowned'
 [21Mar2025 20:46:30.927] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/26652, l='ServerLevel[world]', x=501.64, y=-256.00, z=-962.20] died, message: 'Villager was killed'
 [21Mar2025 20:47:41.886] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/26811, l='ServerLevel[world]', x=487.11, y=9.02, z=-912.18] died, message: 'Villager drowned'
+[21Mar2025 21:22:16.097] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SoySaave[/100.102.137.76:54882] logged in with entity id 31393 at (482.30000001192093, 41.0, -1008.3000000119209)
+[21Mar2025 21:22:16.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave joined the game
+[21Mar2025 21:22:46.038] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave lost connection: Disconnected
+[21Mar2025 21:22:46.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave left the game
+[21Mar2025 21:22:46.039] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SoySaave
+[21Mar2025 21:23:21.744] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SoySaave[/100.102.137.76:55061] logged in with entity id 31548 at (482.30000001192093, 41.0, -1008.3000000119209)
+[21Mar2025 21:23:21.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave joined the game
+[21Mar2025 21:23:22.148] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SoySaave (18)
+[21Mar2025 21:23:22.148] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SoySaave
+[21Mar2025 21:23:29.073] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6704eb53-cc09-31e0-8510-737fff44e93d
+[21Mar2025 21:23:30.080] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6704eb53-cc09-31e0-8510-737fff44e93d
+[21Mar2025 21:23:30.081] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SoySaave (6704eb53-cc09-31e0-8510-737fff44e93d) successfully connected to voice chat
