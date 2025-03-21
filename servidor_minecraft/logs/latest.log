@@ -11295,3 +11295,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Mar2025 20:21:26.978] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/23384, l='ServerLevel[world]', x=444.17, y=-256.00, z=-987.70] died, message: 'Villager was killed'
 [21Mar2025 20:21:56.979] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/23437, l='ServerLevel[world]', x=444.17, y=-256.00, z=-987.70] died, message: 'Villager was killed'
 [21Mar2025 20:22:57.928] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/23516, l='ServerLevel[world]', x=441.61, y=-256.00, z=-990.21] died, message: 'Villager was killed'
+[21Mar2025 20:29:34.734] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave lost connection: Disconnected
+[21Mar2025 20:29:34.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave left the game
+[21Mar2025 20:29:34.735] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SoySaave
