@@ -15205,3 +15205,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Mar2025 20:02:54.019] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [21Mar2025 20:03:03.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSebasgg14 has reached the goal [Senior Summoner]
 [21Mar2025 20:03:10.928] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/19160, l='ServerLevel[world]', x=438.06, y=-256.00, z=-979.64] died, message: 'Villager was killed'
+[21Mar2025 20:07:54.002] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Mar2025 20:07:54.016] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Mar2025 20:12:53.995] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Mar2025 20:12:54.009] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
