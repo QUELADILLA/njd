@@ -1,0 +1,213 @@
+---- Minecraft Crash Report ----
+
+// Hi. I'm Connector, and I'm a crashaholic
+=========================
+SINYTRA CONNECTOR IS PRESENT!
+Please verify issues are not caused by Connector before reporting them to mod authors.
+If you're unsure, file a report on Connector's issue tracker found at https://github.com/Sinytra/Connector/issues.
+=========================
+
+// I just don't know what went wrong :(
+
+Time: 2025-03-16 22:43:57
+Description: Exception ticking world
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.sounds.SoundEvent.m_215668_(float)" because the return value of "net.minecraft.core.Holder.m_203334_()" is null
+	at net.minecraft.server.level.ServerLevel.m_262808_(ServerLevel.java:907) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.Level.m_214150_(Level.java:395) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:twilightforest:cloud,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,xf:fml:twilightforest:cloud,pl:mixin:APP:citadel.mixins.json:LevelMixin from mod citadel,pl:mixin:APP:adastra.mixins.json:common.multipart.LevelMixin from mod ad_astra,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.Level.m_6263_(Level.java:401) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:twilightforest:cloud,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,xf:fml:twilightforest:cloud,pl:mixin:APP:citadel.mixins.json:LevelMixin from mod citadel,pl:mixin:APP:adastra.mixins.json:common.multipart.LevelMixin from mod ad_astra,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.Level.m_5594_(Level.java:389) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:twilightforest:cloud,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,xf:fml:twilightforest:cloud,pl:mixin:APP:citadel.mixins.json:LevelMixin from mod citadel,pl:mixin:APP:adastra.mixins.json:common.multipart.LevelMixin from mod ad_astra,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.mcreator.doppelgangermod.procedures.DieinnetherProcedure.execute(DieinnetherProcedure.java:46) ~[Doppelganger_V7_forge_1.20.1.jar%23168!/:?] {re:classloading}
+	at net.mcreator.doppelgangermod.procedures.DieinnetherProcedure.onEntitySpawned(DieinnetherProcedure.java:27) ~[Doppelganger_V7_forge_1.20.1.jar%23168!/:?] {re:classloading}
+	at net.mcreator.doppelgangermod.procedures.__DieinnetherProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic) ~[Doppelganger_V7_forge_1.20.1.jar%23168!/:?] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?] {}
+	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:classloading,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:classloading,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:859) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?] {}
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[?:?] {}
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?] {}
+	at net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:connector_pre_launch:A,re:computing_frames,pl:connector_pre_launch:A,re:classloading,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,xf:fml:forge:forge_method_redirector,pl:connector_pre_launch:A,re:classloading,xf:fml:forge:forge_method_redirector,pl:mixin:APP:alexscaves.mixins.json:NaturalSpawnerMixin from mod alexscaves,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,xf:fml:forge:forge_method_redirector,pl:connector_pre_launch:A,re:classloading,xf:fml:forge:forge_method_redirector,pl:mixin:APP:alexscaves.mixins.json:NaturalSpawnerMixin from mod alexscaves,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,xf:fml:forge:forge_method_redirector,pl:connector_pre_launch:A,re:classloading,xf:fml:forge:forge_method_redirector,pl:mixin:APP:alexscaves.mixins.json:NaturalSpawnerMixin from mod alexscaves,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:A,pl:connector_pre_launch:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Suspected Mod: 
+	doppelgangermod (doppelgangermod), Version: 7.0
+		at TRANSFORMER/doppelgangermod@7.0/net.mcreator.doppelgangermod.procedures.DieinnetherProcedure.execute(DieinnetherProcedure.java:46)
+Stacktrace:
+	at net.minecraft.server.level.ServerLevel.m_262808_(ServerLevel.java:907) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.Level.m_214150_(Level.java:395) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:twilightforest:cloud,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,xf:fml:twilightforest:cloud,pl:mixin:APP:citadel.mixins.json:LevelMixin from mod citadel,pl:mixin:APP:adastra.mixins.json:common.multipart.LevelMixin from mod ad_astra,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.Level.m_6263_(Level.java:401) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:twilightforest:cloud,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,xf:fml:twilightforest:cloud,pl:mixin:APP:citadel.mixins.json:LevelMixin from mod citadel,pl:mixin:APP:adastra.mixins.json:common.multipart.LevelMixin from mod ad_astra,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.Level.m_5594_(Level.java:389) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:twilightforest:cloud,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,xf:fml:twilightforest:cloud,pl:mixin:APP:citadel.mixins.json:LevelMixin from mod citadel,pl:mixin:APP:adastra.mixins.json:common.multipart.LevelMixin from mod ad_astra,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.mcreator.doppelgangermod.procedures.DieinnetherProcedure.execute(DieinnetherProcedure.java:46) ~[Doppelganger_V7_forge_1.20.1.jar%23168!/:?] {re:classloading}
+	at net.mcreator.doppelgangermod.procedures.DieinnetherProcedure.onEntitySpawned(DieinnetherProcedure.java:27) ~[Doppelganger_V7_forge_1.20.1.jar%23168!/:?] {re:classloading}
+	at net.mcreator.doppelgangermod.procedures.__DieinnetherProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic) ~[Doppelganger_V7_forge_1.20.1.jar%23168!/:?] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?] {}
+	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:classloading,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:classloading,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:859) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?] {}
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[?:?] {}
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?] {}
+	at net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:connector_pre_launch:A,re:computing_frames,pl:connector_pre_launch:A,re:classloading,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,xf:fml:forge:forge_method_redirector,pl:connector_pre_launch:A,re:classloading,xf:fml:forge:forge_method_redirector,pl:mixin:APP:alexscaves.mixins.json:NaturalSpawnerMixin from mod alexscaves,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,xf:fml:forge:forge_method_redirector,pl:connector_pre_launch:A,re:classloading,xf:fml:forge:forge_method_redirector,pl:mixin:APP:alexscaves.mixins.json:NaturalSpawnerMixin from mod alexscaves,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,xf:fml:forge:forge_method_redirector,pl:connector_pre_launch:A,re:classloading,xf:fml:forge:forge_method_redirector,pl:mixin:APP:alexscaves.mixins.json:NaturalSpawnerMixin from mod alexscaves,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayer['SoySaave'/23127, l='ServerLevel[world]', x=56.85, y=55.00, z=-108.07]]
+	Chunk stats: 2401
+	Level dimension: minecraft:the_nether
+	Derived: true
+	Level spawn location: World: (0,138,0), Section: (at 0,10,0 in 0,8,0; chunk contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 1616581 game time, 1819737 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Level weather: Rain time: 32161 (now: false), thunder time: 2136 (now: false)
+	Known server brands: forge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:A,pl:connector_pre_launch:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.8.0-1021-azure
+	Java Version: 17.0.14, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 3820106752 bytes (3643 MiB) / 5838471168 bytes (5568 MiB) up to 15032385536 bytes (14336 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7763 64-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 1 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 7995.01
+	Virtual memory used (MB): 9475.54
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xms2G -Xmx14G
+	Server Running: true
+	Player Count: 1 / 20; [ServerPlayer['SoySaave'/23127, l='ServerLevel[world]', x=56.85, y=55.00, z=-108.07]]
+	Data Packs: vanilla, mod:treechop (incompatible), mod:geckolib, mod:botarium (incompatible), mod:sophisticatedcore (incompatible), mod:citadel (incompatible), mod:alexsmobs (incompatible), mod:the_backrooms_loxor, mod:yungsapi, mod:mixinextras (incompatible), mod:glitchcore (incompatible), mod:sophisticatedbackpacks (incompatible), mod:cave_dweller (incompatible), mod:forge, mod:stackrefill, mod:twilightforest, mod:dungeons_arise, mod:alexscaves, mod:voicechat (incompatible), mod:terrablender, mod:biomesoplenty, mod:creativecore, mod:watching, mod:resourcefulconfig (incompatible), mod:born_in_chaos_v1, mod:lionfishapi (incompatible), mod:ribbits (incompatible), mod:cataclysm (incompatible), mod:curios (incompatible), mod:man, mod:collective, mod:mr_dungeons_andtaverns (incompatible), mod:doppelgangermod, mod:apollyon, mod:connectormod, mod:resourcefullib (incompatible), mod:architectury (incompatible), mod:furniture (incompatible), mod:moa_decor_electronics, mod:playerrevive, mod:ad_astra (incompatible), mod:chocobos, mod:playeranimator (incompatible), mod:jei, mod:emotecraft (incompatible), mod:bendylib (incompatible), mod:corpse
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	Sinytra Connector: 1.0.0-beta.45+1.20.1
+		SINYTRA CONNECTOR IS PRESENT!
+		Please verify issues are not caused by Connector before reporting them to mod authors. If you're unsure, file a report on Connector's issue tracker.
+		Connector's issue tracker can be found at https://github.com/Sinytra/Connector/issues.
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar mixin-transmogrifier TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar connector_loader TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		TreeChop-1.20.1-forge-0.19.0-fixed.jar            |HT's TreeChop                 |treechop                      |0.19.0              |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-4.7.jar                     |GeckoLib 4                    |geckolib                      |4.7                 |DONE      |Manifest: NOSIGNATURE
+		player-animation-lib-forge-1.0.2-rc1+1.20.jar     |Player Animator               |playeranimator                |1.0.2-rc1+1.20      |DONE      |Manifest: NOSIGNATURE
+		botarium-forge-1.20.1-2.3.4.jar                   |Botarium                      |botarium                      |2.3.4               |DONE      |Manifest: NOSIGNATURE
+		jei-1.20.1-forge-15.20.0.106.jar                  |Just Enough Items             |jei                           |15.20.0.106         |DONE      |Manifest: NOSIGNATURE
+		sophisticatedcore-1.20.1-1.2.22.901.jar           |Sophisticated Core            |sophisticatedcore             |1.2.22.901          |DONE      |Manifest: NOSIGNATURE
+		citadel-2.6.1-1.20.1.jar                          |Citadel                       |citadel                       |2.6.1               |DONE      |Manifest: NOSIGNATURE
+		alexsmobs-1.22.9.jar                              |Alex's Mobs                   |alexsmobs                     |1.22.9              |DONE      |Manifest: NOSIGNATURE
+		TheBackroomsModByLoxorV4.7 (Release).jar          |The Backrooms Mod two         |the_backrooms_loxor           |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		YungsApi-1.20-Forge-4.0.6.jar                     |YUNG's API                    |yungsapi                      |1.20-Forge-4.0.6    |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.3.2.jar                       |MixinExtras                   |mixinextras                   |0.3.2               |DONE      |Manifest: NOSIGNATURE
+		GlitchCore-forge-1.20.1-0.0.1.1.jar               |GlitchCore                    |glitchcore                    |0.0.1.1             |DONE      |Manifest: NOSIGNATURE
+		sophisticatedbackpacks-1.20.1-3.23.6.1210.jar     |Sophisticated Backpacks       |sophisticatedbackpacks        |3.23.6.1210         |DONE      |Manifest: NOSIGNATURE
+		cave_dweller-1.20.1-1.7.0.jar                     |cave_dweller                  |cave_dweller                  |1.7.0               |DONE      |Manifest: NOSIGNATURE
+		forge-1.20.1-47.3.7-universal.jar                 |Forge                         |forge                         |47.3.7              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		stackrefill-1.20.1-4.6.jar                        |Stack Refill                  |stackrefill                   |4.6                 |DONE      |Manifest: NOSIGNATURE
+		twilightforest-1.20.1-4.3.1860-universal.jar      |The Twilight Forest           |twilightforest                |4.3.1860            |DONE      |Manifest: NOSIGNATURE
+		emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar|Emotecraft                    |emotecraft                    |2.2.7-b.build.50    |DONE      |Manifest: NOSIGNATURE
+		corpse-forge-1.20.1-1.0.19.jar                    |Corpse                        |corpse                        |1.20.1-1.0.19       |DONE      |Manifest: NOSIGNATURE
+		DungeonsArise-1.20.1-2.1.57-release.jar           |When Dungeons Arise           |dungeons_arise                |2.1.57-1.20.1       |DONE      |Manifest: NOSIGNATURE
+		server-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: NOSIGNATURE
+		alexscaves-2.0.2.jar                              |Alex's Caves                  |alexscaves                    |2.0.2               |DONE      |Manifest: NOSIGNATURE
+		voicechat-forge-1.20.1-2.5.28.jar                 |Simple Voice Chat             |voicechat                     |1.20.1-2.5.28       |DONE      |Manifest: NOSIGNATURE
+		TerraBlender-forge-1.20.1-3.0.1.7.jar             |TerraBlender                  |terrablender                  |3.0.1.7             |DONE      |Manifest: NOSIGNATURE
+		BiomesOPlenty-forge-1.20.1-19.0.0.91.jar          |Biomes O' Plenty              |biomesoplenty                 |19.0.0.91           |DONE      |Manifest: NOSIGNATURE
+		CreativeCore_FORGE_v2.12.31_mc1.20.1.jar          |CreativeCore                  |creativecore                  |2.12.31             |DONE      |Manifest: NOSIGNATURE
+		From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar         |From The Fog                  |watching                      |1.9.2               |DONE      |Manifest: NOSIGNATURE
+		resourcefulconfig-forge-1.20.1-2.1.3.jar          |Resourcefulconfig             |resourcefulconfig             |2.1.3               |DONE      |Manifest: NOSIGNATURE
+		born_in_chaos_[Forge]1.20.1_1.6.3.jar             |Born in Chaos                 |born_in_chaos_v1              |1.6.3               |DONE      |Manifest: NOSIGNATURE
+		bendy-lib-forge-4.0.0.jar                         |Bendy lib                     |bendylib                      |4.0.0               |DONE      |Manifest: NOSIGNATURE
+		lionfishapi-2.4-Fix.jar                           |LionfishAPI                   |lionfishapi                   |2.4-Fix             |DONE      |Manifest: NOSIGNATURE
+		Ribbits-1.20.1-Forge-3.0.4.jar                    |Ribbits                       |ribbits                       |1.20.1-Forge-3.0.4  |DONE      |Manifest: NOSIGNATURE
+		L_Enders_Cataclysm-2.58- 1.20.1.jar               |Cataclysm Mod                 |cataclysm                     |2.58                |DONE      |Manifest: NOSIGNATURE
+		curios-forge-5.12.1+1.20.1.jar                    |Curios API                    |curios                        |5.12.1+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		The-Man-From-The-Fog-1.4-1.20.1.jar               |The Man From The Fog          |man                           |1.4                 |DONE      |Manifest: NOSIGNATURE
+		collective-1.20.1-7.94.jar                        |Collective                    |collective                    |7.94                |DONE      |Manifest: NOSIGNATURE
+		Crazy_Chocobos-1.20.1-1.2.jar                     |Crazy Chocobos!               |chocobos                      |1.2                 |DONE      |Manifest: NOSIGNATURE
+		dungeons-and-taverns-3.0.3.f.jar                  |Dungeons and Taverns          |mr_dungeons_andtaverns        |3.0.3.f             |DONE      |Manifest: NOSIGNATURE
+		Doppelganger_V7_forge_1.20.1.jar                  |doppelgangermod               |doppelgangermod               |7.0                 |DONE      |Manifest: NOSIGNATURE
+		Apollyon v1.1.0 (Forge 1.20.1).jar                |Apollyon                      |apollyon                      |1.1.0               |DONE      |Manifest: NOSIGNATURE
+		Connector-1.0.0-beta.45+1.20.1-mod.jar            |Connector                     |connectormod                  |1.0.0-beta.45+1.20.1|DONE      |Manifest: NOSIGNATURE
+		resourcefullib-forge-1.20.1-2.1.23.jar            |Resourceful Lib               |resourcefullib                |2.1.23              |DONE      |Manifest: NOSIGNATURE
+		architectury-9.1.13-forge.jar                     |Architectury                  |architectury                  |9.1.13              |DONE      |Manifest: NOSIGNATURE
+		letsdo-furniture-forge-1.0.4.jar                  |[Let's Do] Furniture          |furniture                     |1.0.4               |DONE      |Manifest: NOSIGNATURE
+		MOAdecor ELECTRONICS 1.20.1.A.jar                 |MOA: ELECTRONICS              |moa_decor_electronics         |1.20.1.             |DONE      |Manifest: NOSIGNATURE
+		PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar           |PlayerRevive                  |playerrevive                  |2.0.31              |DONE      |Manifest: NOSIGNATURE
+		ad_astra-forge-1.20.1-1.15.20.jar                 |Ad Astra                      |ad_astra                      |1.15.20             |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: a7a60b2d-7a1f-4dc1-af80-6e3beeb6e45f
+	FML: 47.3
+	Forge: net.minecraftforge:47.3.7
