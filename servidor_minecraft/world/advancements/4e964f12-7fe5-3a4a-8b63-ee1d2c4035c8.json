@@ -897,6 +897,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-03-12 01:32:22 +0000",
+      "minecraft:deep_ocean": "2025-03-22 04:40:48 +0000",
       "minecraft:sunflower_plains": "2025-03-12 01:33:27 +0000",
       "minecraft:birch_forest": "2025-03-16 06:19:28 +0000",
       "minecraft:beach": "2025-03-16 03:47:56 +0000",
@@ -3827,6 +3828,12 @@
   "minecraft:recipes/transportation/detector_rail": {
     "criteria": {
       "has_rail": "2025-03-22 04:24:35 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_book": {
+    "criteria": {
+      "cave_book": "2025-03-22 04:46:55 +0000"
     },
     "done": true
   },

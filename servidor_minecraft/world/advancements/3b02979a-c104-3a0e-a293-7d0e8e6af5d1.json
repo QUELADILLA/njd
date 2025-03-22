@@ -25,9 +25,12 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "wintry_origin_valley": "2025-03-22 04:37:53 +0000",
       "redwood_forest": "2025-03-16 03:39:47 +0000",
       "prairie": "2025-03-16 03:43:43 +0000",
-      "origin_valley": "2025-03-22 04:30:50 +0000"
+      "tundra": "2025-03-22 04:46:18 +0000",
+      "origin_valley": "2025-03-22 04:30:50 +0000",
+      "crag": "2025-03-22 04:46:22 +0000"
     },
     "done": false
   },
@@ -59,8 +62,11 @@
       "minecraft:river": "2025-03-16 05:59:13 +0000",
       "minecraft:stony_shore": "2025-03-16 04:03:48 +0000",
       "minecraft:grove": "2025-03-16 03:53:27 +0000",
+      "minecraft:cold_ocean": "2025-03-22 04:45:53 +0000",
       "minecraft:forest": "2025-03-16 03:53:22 +0000",
       "minecraft:deep_cold_ocean": "2025-03-22 04:24:09 +0000",
+      "minecraft:frozen_ocean": "2025-03-22 04:43:33 +0000",
+      "minecraft:deep_frozen_ocean": "2025-03-22 04:39:48 +0000",
       "minecraft:ocean": "2025-03-16 04:19:04 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-03-22 04:26:14 +0000",
       "minecraft:frozen_peaks": "2025-03-16 04:03:10 +0000",
@@ -642,7 +648,9 @@
     "criteria": {
       "cooked_porkchop": "2025-03-16 04:04:31 +0000",
       "cooked_beef": "2025-03-16 05:14:35 +0000",
-      "cooked_cod": "2025-03-16 05:37:19 +0000"
+      "porkchop": "2025-03-22 04:41:56 +0000",
+      "cooked_cod": "2025-03-16 05:37:19 +0000",
+      "mutton": "2025-03-22 04:42:03 +0000"
     },
     "done": false
   },
@@ -2289,6 +2297,12 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/cave_map": {
+    "criteria": {
+      "cave_map": "2025-03-22 04:52:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/activator_rail": {
     "criteria": {
       "has_rail": "2025-03-22 04:16:49 +0000"
@@ -2310,6 +2324,12 @@
   "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
     "criteria": {
       "has_coast_armor_trim_smithing_template": "2025-03-22 04:30:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-03-22 04:42:00 +0000"
     },
     "done": true
   },
