@@ -884,6 +884,7 @@
       "minecraft:slime": "2025-03-15 01:41:11 +0000",
       "minecraft:phantom": "2025-03-15 02:22:32 +0000",
       "minecraft:witch": "2025-03-16 07:29:20 +0000",
+      "minecraft:piglin": "2025-03-21 21:34:23 +0000",
       "minecraft:silverfish": "2025-03-16 05:06:58 +0000",
       "minecraft:enderman": "2025-03-16 19:13:38 +0000",
       "minecraft:endermite": "2025-03-16 05:50:39 +0000",
@@ -4178,6 +4179,30 @@
   "twilightforest:recipes/decorations/firefly_particle_spawner": {
     "criteria": {
       "has_jar": "2025-03-21 19:48:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2025-03-21 21:48:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2025-03-21 21:48:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-03-21 21:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_crimson_hyphae": {
+    "criteria": {
+      "has_log": "2025-03-21 21:48:34 +0000"
     },
     "done": true
   },

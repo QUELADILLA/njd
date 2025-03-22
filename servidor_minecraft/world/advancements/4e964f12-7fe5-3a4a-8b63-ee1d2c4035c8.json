@@ -1166,6 +1166,7 @@
       "minecraft:witch": "2025-03-15 17:55:08 +0000",
       "minecraft:husk": "2025-03-16 06:32:42 +0000",
       "minecraft:cave_spider": "2025-03-16 07:30:37 +0000",
+      "minecraft:piglin": "2025-03-21 21:36:48 +0000",
       "minecraft:enderman": "2025-03-15 02:09:01 +0000",
       "minecraft:silverfish": "2025-03-16 07:02:59 +0000",
       "minecraft:endermite": "2025-03-16 06:57:01 +0000",
@@ -3751,9 +3752,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/composter": {
+  "minecraft:recipes/misc/flower_banner_pattern": {
     "criteria": {
-      "has_wood_slab": "2025-03-21 21:14:53 +0000"
+      "has_oxeye_daisy": "2025-03-21 19:42:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-03-21 19:42:15 +0000"
     },
     "done": true
   },
@@ -3769,21 +3776,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/flower_banner_pattern": {
-    "criteria": {
-      "has_oxeye_daisy": "2025-03-21 19:42:15 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stripped_oak_wood": {
     "criteria": {
       "has_log": "2025-03-21 20:03:34 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+  "minecraft:recipes/decorations/composter": {
     "criteria": {
-      "has_oxeye_daisy": "2025-03-21 19:42:15 +0000"
+      "has_wood_slab": "2025-03-21 21:14:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-03-21 21:35:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2025-03-21 21:41:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-03-21 21:41:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2025-03-21 21:41:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_crimson_hyphae": {
+    "criteria": {
+      "has_log": "2025-03-21 21:41:46 +0000"
     },
     "done": true
   },
