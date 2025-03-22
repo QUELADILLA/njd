@@ -10,7 +10,8 @@
       "jade_cliffs": "2025-03-15 18:11:22 +0000",
       "overgrown_greens": "2025-03-22 04:08:05 +0000",
       "redwood_forest": "2025-03-15 17:41:31 +0000",
-      "prairie": "2025-03-15 17:50:58 +0000"
+      "prairie": "2025-03-15 17:50:58 +0000",
+      "grassland": "2025-03-22 04:23:21 +0000"
     },
     "done": false
   },
@@ -1509,6 +1510,30 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2025-03-15 20:01:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-03-22 04:20:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-03-22 04:20:25 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2025-03-22 04:28:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-03-22 04:20:25 +0000"
     },
     "done": true
   },
